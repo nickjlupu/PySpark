@@ -13,6 +13,7 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
 * Spark
 * pgAdmin4: [queries](queries.sql)
 * AWS RDS database
-* data:  [https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz)
+* data:  Amazon Reviews of Watches in USA
+  * [https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz)
 
 
