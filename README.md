@@ -17,3 +17,5 @@ Many of Amazon's shoppers depend on product reviews to make a purchase. Amazon m
   * [https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz)
 
 
+## Analysis Results
+Results of the SQL queries and conclusions are found in the file:  [Challenge16.txt](Challenge16.txt)
