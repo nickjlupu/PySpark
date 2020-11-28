@@ -36,11 +36,12 @@ From this data, it appears that there is not much of a difference in the Average
 
 To dive further into the dataset I chose to look at only reviews with at least 5 Helpful votes.  Below are the results of those queries to the database.
 
-                    vine        non-vine
-Total Reviews:      188         41,045
-5-star Reviews:     71          21,815
-Average Rating:     4.0         3.9
-Average Helpful
-Votes per Review:   17.56       15.92
+|                 | vine  | non-vine |
+|-----------------|-------|----------|
+|Total Reviews:   |  188  |  41,045  |
+|5-star Reviews:  |   71  |  21,815  |
+|Average Rating:  |  4.0  |    3.9   |
+|Average Helpful 
+ Votes per Review:| 17.56 |  15.92   |
 
 The Average Rating has not changed very dramatically when we pare down the data by looking at reviews that folks found to be more helpful.  Also, the percentage of 5-star ratings (vine 37.8%, non-vine 53.1%) is within ~5% of the full dataset.  Looking at the average helpful votes per review, it seems that in general people found both vine and non-vine reviews to be similarly helpful.  Examining all of this data together, it is safe to say that the vine reviews for watches are not biased.   
