@@ -24,12 +24,13 @@ I chose the Watches dataset to investigate.  [https://s3.amazonaws.com/amazon-re
 Once I ran through the ETL process with Spark on Google Colab, (notebook: [https://colab.research.google.com/drive/11L-bw7P_RZn5_XFyRqYRrESVMu-1Uv-e?usp=sharing](https://colab.research.google.com/drive/11L-bw7P_RZn5_XFyRqYRrESVMu-1Uv-e?usp=sharing)), 
 I used pgAdmin to run SQL queries to investigate the dataset by splitting out the paid vine program reviews from the unpaid reviews.  All of my SQL queries can be found in the file: [queries.sql](queries.sql)
 
-                    vine        non-vine
-Total Reviews:      1,747       958,932
-5-star Reviews:     605         570,888
-Average Rating:     4.0         4.1
-Average Helpful
-Votes per Review:   2.86        1.19
+|                 | vine  | non-vine |
+|-----------------|-------|----------|
+|Total Reviews:   | 1,747 |  958,932 |
+|5-star Reviews:  |  605  |  570,888 |
+|Average Rating:  |  4.0  |    4.1   |
+|Average Helpful 
+ Votes per Review:| 2.86  |   1.19   |
 
 From this data, it appears that there is not much of a difference in the Average Rating between the paid vine reviews and the unpaid reviews.  The vine reviewers give a 5-star rating 34.6% of the time compared to non-vine reviewers 59.5%.  
 
